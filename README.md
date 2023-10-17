@@ -1,4 +1,4 @@
-# Pokemon-Hello
+# Pokemon-World-App
 # AND101 Project 5 - Choose Your Own API
 
 Submitted by: **Sonu Gupta**
@@ -7,7 +7,7 @@ Time spent: **7** hours spent in total
 
 ## Summary
 
-**Pokemon Hello** is an android app that **that displays a random pokemon and their type**
+**Pokemon World** is an android app that **that displays a random 1292 pokemons and their type**
 
 
 ## Application Features
