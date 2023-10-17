@@ -73,15 +73,15 @@ class MainActivity : AppCompatActivity() {
     private fun updateUI(name: String, type: String, imageUrl: String) {
         // Update the UI elements (ImageView, TextViews) with the data
         val pokemonImageView = findViewById<ImageView>(R.id.pokemonImageView)
-        val nameTextView = findViewById<TextView>(R.id.namePokeText)
-        val typeTextView = findViewById<TextView>(R.id.typePokemon)
+        val nameTextView = findViewById<TextView>(R.id.pokeName)
+        val typeTextView = findViewById<TextView>(R.id.pokeType)
 
         // Load the image using an image loading library like Glide (similar to your previous code)
         Glide.with(this).load(imageUrl).into(pokemonImageView)
 
         // Update TextViews with the name and type
-        nameTextView.text = "Name: $name"
-        typeTextView.text = "Type: $type"
+        nameTextView.text = "$name"
+        typeTextView.text = "$type"
     }
 
 }
