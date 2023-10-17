@@ -31,7 +31,7 @@ My chosen API for this project is **[Poke API](https://pokeapi.co/)**.
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://github.com/Dxsonu7/Project-API/assets/87947158/5586c72f-8273-4955-8284-0c3f83643fb0' title='Gif Demo' width='' alt='Gif Demo' />
+<img src='https://github.com/Dxsonu7/Pokemon-Hello/assets/87947158/f8b7b045-0052-46aa-9f71-b7efd094fa01' title='Gif Demo' width='' alt='Gif Demo' />
 
 GIF created with **my Samsung Galaxy S10 <3**
 
