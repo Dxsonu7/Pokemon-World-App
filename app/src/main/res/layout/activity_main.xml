@@ -8,24 +8,25 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonPokemon"
         android:layout_width="208dp"
         android:layout_height="62dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="160dp"
         android:text="Catch Pokemon"
         android:textSize="20dp"
         android:textStyle="bold"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/pokemonImageView"
         android:layout_width="309dp"
         android:layout_height="219dp"
         app:srcCompat="@drawable/pokemon_logo"
-        app:layout_constraintVertical_bias="0"
+        app:layout_constraintVertical_bias="0.1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,19 +34,26 @@
         />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/typePokemon"
         android:layout_width="116dp"
         android:layout_height="44dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="464dp" />
+        android:text="Pokemon Type"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/namePokeText"
+        app:layout_constraintStart_toStartOf="@id/namePokeText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.614" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="543dp" />
+        android:id="@+id/namePokeText"
+        android:layout_width="126dp"
+        android:layout_height="39dp"
+        android:text="Pokemon Name"
+        android:hint="Type"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.486" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

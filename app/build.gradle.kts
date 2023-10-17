@@ -10,7 +10,7 @@ android {
     defaultConfig {
         applicationId = "com.example.project_api"
         minSdk = 26
-        targetSdk = 34
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -38,6 +38,7 @@ android {
 dependencies {
 
     //    Adding glide and codepath libraries
+    implementation ("com.android.volley:volley:1.2.1")
     implementation ("com.github.bumptech.glide:glide:4.12.0")
     annotationProcessor ("com.github.bumptech.glide:compiler:4.12.0")
     implementation ("com.codepath.libraries:asynchttpclient:2.2.0")
