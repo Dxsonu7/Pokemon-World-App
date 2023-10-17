@@ -25,7 +25,7 @@
         android:layout_width="309dp"
         android:layout_height="219dp"
         app:srcCompat="@drawable/pokemon_logo"
-        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintVertical_bias="0.18"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,17 +42,19 @@
         app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@id/buttonPokemon"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.486" />
 
     <TextView
         android:id="@+id/typePokemon"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Pokemon Type:"
+        android:textAlignment="center"
         android:textStyle="bold"
         android:textColor="@color/gray_light"
+        android:background="@color/purple_500"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/namePokeText"
         app:layout_constraintStart_toStartOf="@id/namePokeText"
@@ -72,18 +74,33 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.485" />
 
+    <!--  Footer  -->
+
     <TextView
         android:id="@+id/pokeType"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
+        android:layout_marginBottom="240dp"
+        android:text="Poke"
         android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="@id/buttonPokemon"
+        app:layout_constraintTop_toBottomOf="@id/typePokemon"
+        app:layout_constraintStart_toStartOf="@id/buttonPokemon" />
+
+    <TextView
+        android:id="@+id/tvFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Made with 💙 by Sonu"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.06"
-        app:layout_constraintStart_toEndOf="@+id/typePokemon"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.615" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
