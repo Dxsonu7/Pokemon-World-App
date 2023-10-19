@@ -1,9 +1,6 @@
 # Pokemon-World-App
-# AND101 Project 5 - Choose Your Own API
 
 Submitted by: **Sonu Gupta**
-
-Time spent: **7** hours spent in total
 
 ## Summary
 
