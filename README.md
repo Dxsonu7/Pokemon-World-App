@@ -1,6 +1,6 @@
 # Pokemon-World-App
 
-Submitted by: **Sonu Gupta**
+Author: **Sonu Gupta**
 
 ## Summary
 
